@@ -1,0 +1,31 @@
+.main {
+  @apply flex flex-col h-[100vh] justify-center items-center ;
+}
+
+.login {
+  @apply border border-[black] p-[30px] h-[460px];
+}
+
+.Heading-1 {
+  @apply flex justify-center items-center text-[30px] font-[700];
+}
+
+.Heading-2 {
+  @apply flex justify-center items-center;
+}
+
+.Heading-p {
+  @apply flex justify-center items-center mb-[20px];
+}
+
+.login-input {
+  @apply border p-[10px] w-[350px] rounded-[5px] mb-[10px];
+}
+
+.login-button {
+  @apply border w-[350px] h-[44px] p-[7px] rounded-[5px] mt-[40px] bg-[#7C3AEDFF] text-[#FFFFFFFF];
+}
+
+.signup-link {
+  @apply flex justify-center items-center m-[10px];
+}
