@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css'
 import Login from "./pages/Login"
+import { RouterProvider } from 'react-router-dom' 
+import Router from './router/Router'
 
 
 
@@ -8,9 +10,9 @@ import Login from "./pages/Login"
 const App = () => {
   return (
     <div>
-      <Login/>
+      <RouterProvider router={Router} />
     </div>
   )
 }
 
-export default App
+export default App;
